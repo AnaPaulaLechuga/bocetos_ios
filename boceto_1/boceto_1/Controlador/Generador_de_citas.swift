@@ -19,4 +19,8 @@ class GeneradorDeCitas{
         
         citas_creadas.append(cita_generada)
     }
+    
+    func generar_citas_falsas(){
+        self.agregar_cita("Soy solo un pequeño cuadrado en un mundo lleno de picos, sierras y saltos imposibles. Pero, oye, ¡al menos nunca tengo que preocuparme por doblar esquinas! Cada vez que fallo, me hago más fuerte... o al menos, más testarudo. Así que, si ves que me estrello una y otra vez, no te preocupes, es solo mi forma cuadrada de decir '¡Inténtalo de nuevo!'",  quien_lo_dijo: "Cuadrado predeterminado de Geometry Dash")
+    }
 }
