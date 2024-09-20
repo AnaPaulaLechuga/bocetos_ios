@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB4F21202C9DD96D007B6AF7 /* ControladorCita.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F211F2C9DD96D007B6AF7 /* ControladorCita.swift */; };
 		FB9062E72C9B2B48005D939C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9062E62C9B2B48005D939C /* AppDelegate.swift */; };
 		FB9062E92C9B2B48005D939C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9062E82C9B2B48005D939C /* SceneDelegate.swift */; };
 		FB9062EB2C9B2B48005D939C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9062EA2C9B2B48005D939C /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB4F211F2C9DD96D007B6AF7 /* ControladorCita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladorCita.swift; sourceTree = "<group>"; };
 		FB9062E32C9B2B48005D939C /* boceto_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boceto_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9062E62C9B2B48005D939C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB9062E82C9B2B48005D939C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB4F211E2C9DD933007B6AF7 /* Controladores de vistas */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F211F2C9DD96D007B6AF7 /* ControladorCita.swift */,
+			);
+			path = "Controladores de vistas";
+			sourceTree = "<group>";
+		};
 		FB9062DA2C9B2B48005D939C = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		FB9062E52C9B2B48005D939C /* boceto_1 */ = {
 			isa = PBXGroup;
 			children = (
+				FB4F211E2C9DD933007B6AF7 /* Controladores de vistas */,
 				FB90631A2C9B362B005D939C /* Controlador */,
 				FB9063162C9B3581005D939C /* Modelo */,
 				FB9062E62C9B2B48005D939C /* AppDelegate.swift */,
@@ -282,6 +293,7 @@
 			files = (
 				FB90631C2C9B3642005D939C /* Cita.swift in Sources */,
 				FB9062EB2C9B2B48005D939C /* ViewController.swift in Sources */,
+				FB4F21202C9DD96D007B6AF7 /* ControladorCita.swift in Sources */,
 				FB9062E72C9B2B48005D939C /* AppDelegate.swift in Sources */,
 				FB9062E92C9B2B48005D939C /* SceneDelegate.swift in Sources */,
 				FB90631E2C9B36E0005D939C /* Generador_de_citas.swift in Sources */,

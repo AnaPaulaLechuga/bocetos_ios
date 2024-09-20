@@ -15,5 +15,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBSegueAction func moviendome_de_pantalla(_ coder: NSCoder) -> ControladorVistaCitas? {
+        return
+    }
 }
 

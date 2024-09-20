@@ -50,7 +50,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                         <connections>
-                                            <segue destination="cF3-JB-Oxz" kind="show" id="qfK-XC-ZzB"/>
+                                            <segue destination="cF3-JB-Oxz" kind="show" destinationCreationSelector="moviendome_de_pantalla:" id="qfK-XC-ZzB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1M-9l-k34">
@@ -132,10 +132,10 @@
             </objects>
             <point key="canvasLocation" x="26.717557251908396" y="3.5211267605633805"/>
         </scene>
-        <!--View Controller-->
+        <!--Controladro Vista Citas-->
         <scene sceneID="iF3-ez-8Yb">
             <objects>
-                <viewController id="cF3-JB-Oxz" sceneMemberID="viewController">
+                <viewController id="cF3-JB-Oxz" customClass="ControladroVistaCitas" customModule="boceto_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bjH-OS-Kbi">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -181,6 +181,10 @@
                         <color key="backgroundColor" red="0.0" green="0.28891640751457254" blue="0.33353979316288651" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="9iT-s2-Q4I"/>
+                    <connections>
+                        <outlet property="nombre_de_quien_lo_dijo" destination="g0C-AU-gTW" id="R51-G7-OHa"/>
+                        <outlet property="que_dijo_que" destination="b55-u8-6Q0" id="iEd-hX-UkY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nis-73-jRw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
