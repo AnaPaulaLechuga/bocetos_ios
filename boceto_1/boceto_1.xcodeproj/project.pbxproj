@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB4A46642CA1C1F1003BF6C6 /* ControladorPantallaCitas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A46632CA1C1F1003BF6C6 /* ControladorPantallaCitas.swift */; };
 		FB4F21202C9DD96D007B6AF7 /* ControladorCita.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F211F2C9DD96D007B6AF7 /* ControladorCita.swift */; };
 		FB9062E72C9B2B48005D939C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9062E62C9B2B48005D939C /* AppDelegate.swift */; };
 		FB9062E92C9B2B48005D939C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9062E82C9B2B48005D939C /* SceneDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB4A46632CA1C1F1003BF6C6 /* ControladorPantallaCitas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladorPantallaCitas.swift; sourceTree = "<group>"; };
 		FB4F211F2C9DD96D007B6AF7 /* ControladorCita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladorCita.swift; sourceTree = "<group>"; };
 		FB9062E32C9B2B48005D939C /* boceto_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boceto_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9062E62C9B2B48005D939C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				FB4F211F2C9DD96D007B6AF7 /* ControladorCita.swift */,
+				FB4A46632CA1C1F1003BF6C6 /* ControladorPantallaCitas.swift */,
 			);
 			path = "Controladores de vistas";
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				FB9062E72C9B2B48005D939C /* AppDelegate.swift in Sources */,
 				FB9062E92C9B2B48005D939C /* SceneDelegate.swift in Sources */,
 				FB90631E2C9B36E0005D939C /* Generador_de_citas.swift in Sources */,
+				FB4A46642CA1C1F1003BF6C6 /* ControladorPantallaCitas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

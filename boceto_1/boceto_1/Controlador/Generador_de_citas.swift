@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 class GeneradorDeCitas{
     var citas_creadas: Array<Cita>
     
@@ -14,13 +15,26 @@ class GeneradorDeCitas{
         citas_creadas = []
     }
     
-    func agregar_cita(que_dijo: String, quien_lo_dijo: String){
-        var cita_generada = Cita(quien_lo_dijo: quien_lo_dijo, que_dijo: que_dijo)
+    func agregar_cita(_ que_dijo: String, quien_lo_dijo: String){
+        let cita_generada = Cita(quien_lo_dijo: quien_lo_dijo, que_dijo: que_dijo)
         
         citas_creadas.append(cita_generada)
     }
     
+    
     func generar_citas_falsas(){
-        self.agregar_cita("Soy solo un pequeño cuadrado en un mundo lleno de picos, sierras y saltos imposibles. Pero, oye, ¡al menos nunca tengo que preocuparme por doblar esquinas! Cada vez que fallo, me hago más fuerte... o al menos, más testarudo. Así que, si ves que me estrello una y otra vez, no te preocupes, es solo mi forma cuadrada de decir '¡Inténtalo de nuevo!'",  quien_lo_dijo: "Cuadrado predeterminado de Geometry Dash")
+        self.agregar_cita("La gravedad me intenta atrapar, pero siempre encuentro una manera de esquivarla. ¡Soy un cuadrado con estilo!",
+                     quien_lo_dijo: "Cuadrado Básico"
+        )
+        
+        self.agregar_cita("Soy cuadrado, pero mis saltos son todo menos planos. ¡Vamos a rebotar por la vida!",
+                          quien_lo_dijo: "Cuadrado Calavera"
+        )
+        
+        self.agregar_cita("Mis amigos me dicen que soy un poco cuadrado... ¡pero eso es porque no saben saltar como yo!",
+                          quien_lo_dijo: "Cuadrado Meltdown"
+        )
+        
     }
+    
 }

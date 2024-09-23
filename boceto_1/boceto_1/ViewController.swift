@@ -7,16 +7,16 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view
     }
 
 
-    @IBSegueAction func moviendome_de_pantalla(_ coder: NSCoder) -> ControladorVistaCitas? {
-        return
+    @IBSegueAction func al_abrir_pantalla_citas(_ coder: NSCoder) -> ControladorPantallaCitas? {
+        return ControladorPantallaCitas(muro_texto: "Guácala con mi vida", de_quien: "Cuadrado Básico", coder: coder)
     }
 }
-
