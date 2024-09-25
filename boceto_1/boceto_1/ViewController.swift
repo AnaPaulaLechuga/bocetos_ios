@@ -9,6 +9,7 @@ import UIKit
 
 
 class ViewController: UIViewController {
+    var cita_para_enviar: Cita = Cita(quien_lo_dijo: "Cuadrado Básico", que_dijo: "Guácala con mi vida")
 
     override func viewDidLoad() {
         super.viewDidLoad()
