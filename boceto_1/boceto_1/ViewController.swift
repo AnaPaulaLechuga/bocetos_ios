@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 
 
     @IBSegueAction func al_abrir_pantalla_de_citas(_ coder: NSCoder) -> ControladorPantallaCitas? {
-        return ControladorPantallaCitas(muro_texto: "Guácala con mi vida", de_quien: "Cuadrado Básico", coder: coder)
+        return ControladorPantallaCitas(cita_para_citar: cita_para_enviar, coder: coder)
     }
     
 }

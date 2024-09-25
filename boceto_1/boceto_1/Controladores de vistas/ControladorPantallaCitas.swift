@@ -26,7 +26,7 @@ class ControladorPantallaCitas: UIViewController {
         print("Error: Se ha cargado el default de INIT")
     }
     
-    init?(cita_para_citar: Cita/*muro_texto: String*/, de_quien: String, coder: NSCoder){
+    init?(cita_para_citar: Cita/*muro_texto: String, de_quien: String*/, coder: NSCoder){
         /*self.quien_lo_dijo = de_quien
         self.muro_de_texto = muro_texto*/
         self.cita_actual = cita_para_citar
