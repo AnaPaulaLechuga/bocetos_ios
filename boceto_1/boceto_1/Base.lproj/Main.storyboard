@@ -196,10 +196,10 @@
             </objects>
             <point key="canvasLocation" x="933.58778625954199" y="3.5211267605633805"/>
         </scene>
-        <!--View Controller-->
+        <!--Controlador Pantalla Citas3-->
         <scene sceneID="fRS-En-Cgr">
             <objects>
-                <viewController id="nRl-He-KU8" sceneMemberID="viewController">
+                <viewController id="nRl-He-KU8" customClass="ControladorPantallaCitas3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gCY-Kc-W95">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -259,16 +259,19 @@
                         <viewLayoutGuide key="safeArea" id="5lz-Ff-Z3s"/>
                         <color key="backgroundColor" red="0.29202239046391754" green="0.0" blue="0.057132093740299553" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="nombre_de_quien_lo_dijo3" destination="Mai-fz-085" id="lqc-DG-dKB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lAs-5O-eSy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-480.15267175572518" y="696.47887323943667"/>
         </scene>
-        <!--View Controller-->
+        <!--Controlador Pantalla Citas2-->
         <scene sceneID="2Cy-y0-eBH">
             <objects>
-                <viewController id="Fff-qM-kZ1" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="cVD-Bn-tsS">
+                <viewController id="Fff-qM-kZ1" customClass="ControladorPantallaCitas2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cVD-Bn-tsS" customClass="ControladorPantallaCitas2">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -321,12 +324,16 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Vd-4h-AVb"/>
                         <color key="backgroundColor" red="0.50779074836823768" green="0.0036541751576719922" blue="0.8098718523979187" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <connections>
+                            <outlet property="nombre_de_quien_lo_dijo2" destination="nkT-F8-tRc" id="kMv-jR-jdj"/>
+                            <outlet property="que_dijo_muro_texto2" destination="Y43-tW-Ctx" id="kSi-Zv-4Fx"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="XJf-AC-o7F"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mXk-fU-R0n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="617.55725190839689" y="688.73239436619724"/>
+            <point key="canvasLocation" x="587" y="719"/>
         </scene>
     </scenes>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
