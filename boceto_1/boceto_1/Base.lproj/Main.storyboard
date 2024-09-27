@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ueg-kk-fNk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ueg-kk-fNk" customClass="labelcito">
                                 <rect key="frame" x="175" y="797" width="42" height="20.333333333333371"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -134,6 +134,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PyY-YS-jZB"/>
+                    <connections>
+                        <outlet property="labelcito" destination="Ueg-kk-fNk" id="xYm-e1-BX4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -272,18 +275,15 @@
                         <viewLayoutGuide key="safeArea" id="5lz-Ff-Z3s"/>
                         <color key="backgroundColor" red="0.29202239046391754" green="0.0" blue="0.057132093740299553" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <connections>
-                        <outlet property="nombre_de_quien_lo_dijo3" destination="Mai-fz-085" id="lqc-DG-dKB"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lAs-5O-eSy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-480.15267175572518" y="696.47887323943667"/>
         </scene>
-        <!--Controlador Pantalla Citas2-->
+        <!--Controlador Pantalla Agregar Cita-->
         <scene sceneID="2Cy-y0-eBH">
             <objects>
-                <viewController id="Fff-qM-kZ1" customClass="ControladorPantallaCitas2" sceneMemberID="viewController">
+                <viewController id="Fff-qM-kZ1" customClass="ControladorPantallaAgregarCita" customModule="boceto_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cVD-Bn-tsS" customClass="ControladorPantallaCitas2">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -345,20 +345,32 @@
                                     <segue destination="D5W-d5-fid" kind="unwind" unwindAction="volver_a_pantalla_inicioWithSegue:" id="DZK-pR-AEa"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yV0-js-rkE">
+                                <rect key="frame" x="29" y="645" width="327" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z12-Ju-9lg">
+                                <rect key="frame" x="34" y="709" width="316" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Vd-4h-AVb"/>
                         <color key="backgroundColor" red="0.50779074836823768" green="0.0036541751576719922" blue="0.8098718523979187" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <connections>
-                            <outlet property="nombre_de_quien_lo_dijo2" destination="nkT-F8-tRc" id="kMv-jR-jdj"/>
-                            <outlet property="que_dijo_muro_texto2" destination="Y43-tW-Ctx" id="kSi-Zv-4Fx"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="XJf-AC-o7F"/>
+                    <connections>
+                        <outlet property="que_es_lo_que_dijo" destination="Z12-Ju-9lg" id="BQJ-6A-v8L"/>
+                        <outlet property="quien_lo_dijo_view" destination="yV0-js-rkE" id="I1c-3t-MPr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mXk-fU-R0n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="D5W-d5-fid" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="587" y="719"/>
+            <point key="canvasLocation" x="585.49618320610682" y="718.30985915492965"/>
         </scene>
     </scenes>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -20,6 +20,7 @@
 		FB90630A2C9B2B49005D939C /* boceto_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9063092C9B2B49005D939C /* boceto_1UITestsLaunchTests.swift */; };
 		FB90631C2C9B3642005D939C /* Cita.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB90631B2C9B3642005D939C /* Cita.swift */; };
 		FB90631E2C9B36E0005D939C /* Generador_de_citas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB90631D2C9B36E0005D939C /* Generador_de_citas.swift */; };
+		FBE8EEE82CA70E690021D181 /* ControladorGeneradorCita.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8EEE72CA70E690021D181 /* ControladorGeneradorCita.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		FB9063092C9B2B49005D939C /* boceto_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boceto_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FB90631B2C9B3642005D939C /* Cita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cita.swift; sourceTree = "<group>"; };
 		FB90631D2C9B36E0005D939C /* Generador_de_citas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generador_de_citas.swift; sourceTree = "<group>"; };
+		FBE8EEE72CA70E690021D181 /* ControladorGeneradorCita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladorGeneradorCita.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				FB4F211F2C9DD96D007B6AF7 /* ControladorCita.swift */,
 				FB4A46632CA1C1F1003BF6C6 /* ControladorPantallaCitas.swift */,
+				FBE8EEE72CA70E690021D181 /* ControladorGeneradorCita.swift */,
 			);
 			path = "Controladores de vistas";
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE8EEE82CA70E690021D181 /* ControladorGeneradorCita.swift in Sources */,
 				FB90631C2C9B3642005D939C /* Cita.swift in Sources */,
 				FB9062EB2C9B2B48005D939C /* ViewController.swift in Sources */,
 				FB4F21202C9DD96D007B6AF7 /* ControladorCita.swift in Sources */,
