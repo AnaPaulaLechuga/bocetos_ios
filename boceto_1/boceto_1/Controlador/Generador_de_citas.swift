@@ -15,23 +15,26 @@ class GeneradorDeCitas{
         citas_creadas = []
     }
     
-    func agregar_cita(_ que_dijo: String, quien_lo_dijo: String){
+    func agregar_cita_manual(_ que_dijo: String, quien_lo_dijo: String){
         let cita_generada = Cita(quien_lo_dijo: quien_lo_dijo, que_dijo: que_dijo)
         
         citas_creadas.append(cita_generada)
     }
     
+    func agregar_cita(_ cita_nueva: Cita){
+        citas_creadas.append(cita_nueva)
+    }
     
     func generar_citas_falsas(){
-        self.agregar_cita("La gravedad me intenta atrapar, pero siempre encuentro una manera de esquivarla. ¡Soy un cuadrado con estilo!",
+        self.agregar_cita_manual("La gravedad me intenta atrapar, pero siempre encuentro una manera de esquivarla. ¡Soy un cuadrado con estilo!",
                      quien_lo_dijo: "Cuadrado Básico"
         )
         
-        self.agregar_cita("Soy cuadrado, pero mis saltos son todo menos planos. ¡Vamos a rebotar por la vida!",
+        self.agregar_cita_manual("Soy cuadrado, pero mis saltos son todo menos planos. ¡Vamos a rebotar por la vida!",
                           quien_lo_dijo: "Cuadrado Calavera"
         )
         
-        self.agregar_cita("Mis amigos me dicen que soy un poco cuadrado... ¡pero eso es porque no saben saltar como yo!",
+        self.agregar_cita_manual("Mis amigos me dicen que soy un poco cuadrado... ¡pero eso es porque no saben saltar como yo!",
                           quien_lo_dijo: "Cuadrado Meltdown"
         )
         
