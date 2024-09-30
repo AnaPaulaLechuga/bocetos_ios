@@ -47,19 +47,16 @@ class ViewController: UIViewController {
     }
     */
 
-    /*
     @IBAction func volver_a_pantalla_inicio(segue: UIStoryboardSegue) {
         if let pantalla_agregar_citas = segue.source as? ControladorPantallaAgregarCita {
             if let citaCreada = pantalla_agregar_citas.cita_creada {
                 citas_disponibles.agregar_cita(citaCreada)
                 actualizar_cantidad()
-        } 
-        else {
-            // Manejar el caso donde cita_creada es nil
-            print("Error: No se ha creado una cita.")
+            } 
+            else {
+                // Manejar el caso donde cita_creada es nil
+                print("Error: No se ha creado una cita.")
+            }
         }
-    }
-}
-    */
-    
+    }  
 }
