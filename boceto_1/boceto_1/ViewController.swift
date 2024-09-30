@@ -54,7 +54,7 @@ class ViewController: UIViewController {
             } 
             else {
                 // Manejar el caso donde cita_creada es nil
-                print("Error: No se ha creado una cita.")
+                print("No se ha creado una cita...")
             }
         }
         
