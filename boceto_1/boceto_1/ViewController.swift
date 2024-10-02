@@ -9,7 +9,7 @@ import UIKit
 
 
 class ViewController: UIViewController {
-    var cita_para_enviar: Cita = Cita(quien_lo_dijo: "Cuadrado Básico", que_dijo: "Guácala con mi vida")
+    var cita_para_enviar: Cita = Cita(quien_lo_dijo: "Cuadrado Básico", que_dijo: "Bienvenido, humano controlador.")
     var citas_disponibles: GeneradorDeCitas = GeneradorDeCitas()
     var numero_aleatorio: Int = Int.random(in: 0...25)
     
