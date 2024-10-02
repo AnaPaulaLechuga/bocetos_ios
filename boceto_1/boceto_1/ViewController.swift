@@ -54,7 +54,7 @@ class ViewController: UIViewController {
             } 
             else {
                 // Manejar el caso donde cita_creada es nil
-                print("No se ha creado una cita...")
+                print("Humano, por favor, no seas así...")
             }
         }
         
