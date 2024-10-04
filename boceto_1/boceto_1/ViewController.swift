@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     var citas_disponibles: GeneradorDeCitas = GeneradorDeCitas()
     var numero_aleatorio: Int = Int.random(in: 0...25)
     
-    
     @IBOutlet weak var labelcito: UILabel!
     
     override func viewDidLoad() {
@@ -37,15 +36,6 @@ class ViewController: UIViewController {
     @IBAction func al_pulsar_boton(_ sender: UIButton){
         
     }
-    
-    /*@IBAction func volver_a_pantalla_inicio(segue: UIStoryboardSegue) {
-        if let pantalla_agregar_citas = segue.source as? ControladorPantallaAgregarCita {
-            citas_disponibles.agregar_cita(pantalla_agregar_citas.cita_creada!)
-        }
-        
-        actualizar_cantidad()
-    }
-    */
 
     @IBAction func volver_a_pantalla_inicio(segue: UIStoryboardSegue) {
         if let pantalla_agregar_citas = segue.source as? ControladorPantallaAgregarCita {
@@ -63,8 +53,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
-        /*if UIDevice.current.orientation {VistaStack.axis == .horizontal{VistaStack.axis = .vertical}
-         else {VistaStack.axis = .horizontal}*/
+        print ("Terminamos la rotación de la pantalla...")
     }
     
     override func viewWillLayoutSubviews() {

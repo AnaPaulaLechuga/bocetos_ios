@@ -16,206 +16,212 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bTB-Q1-v95">
-                                <rect key="frame" x="38" y="103" width="315" height="62"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="32I-7d-mrv">
+                                <rect key="frame" x="30" y="77" width="331" height="699"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GENERADOR DE CITAS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4GB-Pm-sz0">
-                                        <rect key="frame" x="119" y="40" width="196" height="22"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GEOMETRY DASH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulC-zC-bZW">
-                                        <rect key="frame" x="6" y="0.0" width="303" height="43"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BWU-Zu-PBy">
-                                <rect key="frame" x="75" y="201" width="240" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gx1-GP-5D5">
-                                        <rect key="frame" x="45" y="7" width="150" height="115"/>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bTB-Q1-v95">
+                                        <rect key="frame" x="8" y="38" width="315" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qqh-mi-Sbx">
-                                                <rect key="frame" x="18" y="0.0" width="114" height="115"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GENERADOR DE CITAS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4GB-Pm-sz0">
+                                                <rect key="frame" x="119" y="40" width="196" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="labelColor"/>
-                                                <color key="tintColor" systemColor="darkTextColor"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X3O-oH-RYi">
-                                                <rect key="frame" x="0.0" y="27" width="150" height="62"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GEOMETRY DASH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulC-zC-bZW">
+                                                <rect key="frame" x="6" y="0.0" width="303" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="labelColor"/>
-                                                <color key="tintColor" systemColor="darkTextColor"/>
-                                            </view>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.94246233982875638" blue="0.96611279249191284" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RsI-W5-kdA">
-                                        <rect key="frame" x="70" y="0.0" width="100" height="128"/>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jgP-Nf-xhV">
+                                        <rect key="frame" x="60" y="568" width="211" height="73"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yM3-7M-uuG">
-                                                <rect key="frame" x="-32" y="40" width="164" height="48"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ueg-kk-fNk" customClass="labelcito">
+                                                <rect key="frame" x="83" y="26" width="45" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvm-BA-cdD">
-                                                        <rect key="frame" x="36" y="7" width="92" height="35"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <buttonConfiguration key="configuration" style="filled" image="quote.bubble.rtl" catalog="system" title=" Citas" cornerStyle="capsule">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
-                                                            <color key="baseForegroundColor" systemColor="darkTextColor"/>
-                                                            <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <segue destination="cF3-JB-Oxz" kind="presentation" destinationCreationSelector="al_abrir_pantalla_de_citas:" modalPresentationStyle="fullScreen" id="qfK-XC-ZzB"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <color key="backgroundColor" red="0.56562991240000005" green="0.96611279250000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <color key="tintColor" systemColor="darkTextColor"/>
-                                            </view>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.56562991238196558" green="0.96611279250000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="tintColor" systemColor="darkTextColor"/>
-                                    </view>
-                                </subviews>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gq3-mP-OGo">
-                                <rect key="frame" x="75" y="351" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0bU-Bk-oUO">
-                                        <rect key="frame" x="45" y="6" width="150" height="115"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7bp-5k-qrZ">
-                                                <rect key="frame" x="18" y="0.0" width="114" height="115"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="labelColor"/>
-                                                <color key="tintColor" systemColor="darkTextColor"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7oZ-2a-z00">
-                                                <rect key="frame" x="0.0" y="27" width="150" height="62"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="labelColor"/>
-                                                <color key="tintColor" systemColor="darkTextColor"/>
-                                            </view>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.94246233980000005" blue="0.96611279250000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GGT-aG-KU8">
-                                        <rect key="frame" x="70" y="0.0" width="100" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CCu-Dn-ual">
-                                                <rect key="frame" x="-32" y="40" width="164" height="48"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1M-9l-k34">
-                                                        <rect key="frame" x="18" y="7" width="129" height="35"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" image="quote.bubble" catalog="system" title="  Agregar cita" cornerStyle="capsule">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
-                                                            <color key="baseForegroundColor" systemColor="darkTextColor"/>
-                                                            <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <segue destination="Fff-qM-kZ1" kind="presentation" modalPresentationStyle="fullScreen" id="Dkk-qj-KXY"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <color key="backgroundColor" red="0.56562991240000005" green="0.96611279250000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <color key="tintColor" systemColor="darkTextColor"/>
-                                            </view>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="highlightedColor" systemColor="darkTextColor"/>
+                                                <variation key="heightClass=compact-widthClass=compact">
+                                                    <color key="shadowColor" systemColor="labelColor"/>
+                                                </variation>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.56562991240000005" green="0.96611279250000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="tintColor" systemColor="darkTextColor"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
-                                </subviews>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uda-vr-9LG">
-                                <rect key="frame" x="75" y="502" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mzP-Dn-ySG">
-                                        <rect key="frame" x="45" y="6" width="150" height="115"/>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BWU-Zu-PBy">
+                                        <rect key="frame" x="45" y="128" width="240" height="129"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IA9-se-8m1">
-                                                <rect key="frame" x="18" y="0.0" width="114" height="115"/>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gx1-GP-5D5">
+                                                <rect key="frame" x="45" y="7" width="150" height="115"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="labelColor"/>
-                                                <color key="tintColor" systemColor="darkTextColor"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qqh-mi-Sbx">
+                                                        <rect key="frame" x="18" y="0.0" width="114" height="115"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                        <color key="tintColor" systemColor="darkTextColor"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X3O-oH-RYi">
+                                                        <rect key="frame" x="0.0" y="27" width="150" height="62"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                        <color key="tintColor" systemColor="darkTextColor"/>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.0" green="0.94246233982875638" blue="0.96611279249191284" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tlC-ez-38c">
-                                                <rect key="frame" x="0.0" y="27" width="150" height="62"/>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RsI-W5-kdA">
+                                                <rect key="frame" x="70" y="0.0" width="100" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="labelColor"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yM3-7M-uuG">
+                                                        <rect key="frame" x="-32" y="40" width="164" height="48"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvm-BA-cdD">
+                                                                <rect key="frame" x="36" y="7" width="92" height="35"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <buttonConfiguration key="configuration" style="filled" image="quote.bubble.rtl" catalog="system" title=" Citas" cornerStyle="capsule">
+                                                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                                                    <color key="baseForegroundColor" systemColor="darkTextColor"/>
+                                                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <segue destination="cF3-JB-Oxz" kind="presentation" destinationCreationSelector="al_abrir_pantalla_de_citas:" modalPresentationStyle="fullScreen" id="qfK-XC-ZzB"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.56562991240000005" green="0.96611279250000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="tintColor" systemColor="darkTextColor"/>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.56562991238196558" green="0.96611279250000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="tintColor" systemColor="darkTextColor"/>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.94246233980000005" blue="0.96611279250000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xoB-bs-UMn">
-                                        <rect key="frame" x="70" y="0.0" width="100" height="128"/>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gq3-mP-OGo">
+                                        <rect key="frame" x="45" y="273" width="240" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OQa-RJ-BpW">
-                                                <rect key="frame" x="-32" y="40" width="164" height="48"/>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0bU-Bk-oUO">
+                                                <rect key="frame" x="45" y="6" width="150" height="115"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m90-WY-BxN">
-                                                        <rect key="frame" x="31" y="8" width="103" height="32"/>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7bp-5k-qrZ">
+                                                        <rect key="frame" x="18" y="0.0" width="114" height="115"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="¡PÚLSAME!" cornerStyle="capsule">
-                                                            <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
-                                                            <color key="baseForegroundColor" systemColor="darkTextColor"/>
-                                                            <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
-                                                        </buttonConfiguration>
-                                                        <connections>
-                                                            <segue destination="nRl-He-KU8" kind="presentation" modalPresentationStyle="fullScreen" id="2Ud-A1-eUP"/>
-                                                        </connections>
-                                                    </button>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                        <color key="tintColor" systemColor="darkTextColor"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7oZ-2a-z00">
+                                                        <rect key="frame" x="0.0" y="27" width="150" height="62"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                        <color key="tintColor" systemColor="darkTextColor"/>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.0" green="0.94246233980000005" blue="0.96611279250000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GGT-aG-KU8">
+                                                <rect key="frame" x="70" y="0.0" width="100" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CCu-Dn-ual">
+                                                        <rect key="frame" x="-32" y="40" width="164" height="48"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1M-9l-k34">
+                                                                <rect key="frame" x="18" y="7" width="129" height="35"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="filled" image="quote.bubble" catalog="system" title="  Agregar cita" cornerStyle="capsule">
+                                                                    <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
+                                                                    <color key="baseForegroundColor" systemColor="darkTextColor"/>
+                                                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <segue destination="Fff-qM-kZ1" kind="presentation" modalPresentationStyle="fullScreen" id="Dkk-qj-KXY"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.56562991240000005" green="0.96611279250000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="tintColor" systemColor="darkTextColor"/>
+                                                    </view>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.56562991240000005" green="0.96611279250000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="tintColor" systemColor="darkTextColor"/>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.56562991240000005" green="0.96611279250000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="tintColor" systemColor="darkTextColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uda-vr-9LG">
+                                        <rect key="frame" x="45" y="421" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mzP-Dn-ySG">
+                                                <rect key="frame" x="45" y="6" width="150" height="115"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IA9-se-8m1">
+                                                        <rect key="frame" x="18" y="0.0" width="114" height="115"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                        <color key="tintColor" systemColor="darkTextColor"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tlC-ez-38c">
+                                                        <rect key="frame" x="0.0" y="27" width="150" height="62"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                        <color key="tintColor" systemColor="darkTextColor"/>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.0" green="0.94246233980000005" blue="0.96611279250000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xoB-bs-UMn">
+                                                <rect key="frame" x="70" y="0.0" width="100" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OQa-RJ-BpW">
+                                                        <rect key="frame" x="-32" y="40" width="164" height="48"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m90-WY-BxN">
+                                                                <rect key="frame" x="31" y="8" width="103" height="32"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="filled" title="¡PÚLSAME!" cornerStyle="capsule">
+                                                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                                                    <color key="baseForegroundColor" systemColor="darkTextColor"/>
+                                                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <segue destination="nRl-He-KU8" kind="presentation" modalPresentationStyle="fullScreen" id="2Ud-A1-eUP"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.56562991240000005" green="0.96611279250000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="tintColor" systemColor="darkTextColor"/>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.56562991240000005" green="0.96611279250000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" systemColor="darkTextColor"/>
+                                            </view>
+                                        </subviews>
                                     </view>
                                 </subviews>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jgP-Nf-xhV">
-                                <rect key="frame" x="91" y="677" width="211" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ueg-kk-fNk" customClass="labelcito">
-                                        <rect key="frame" x="83" y="26" width="45" height="22"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="highlightedColor" systemColor="darkTextColor"/>
-                                        <variation key="heightClass=compact-widthClass=compact">
-                                            <color key="shadowColor" systemColor="labelColor"/>
-                                        </variation>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.56562991240000005" green="0.96611279250000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
