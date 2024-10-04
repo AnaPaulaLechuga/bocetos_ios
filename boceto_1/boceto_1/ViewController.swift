@@ -63,7 +63,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
-        /*if UIDevice.current.orientation {VistaStack-axis == .horizontal{VistaStack.axis = .vertical}
+        /*if UIDevice.current.orientation {VistaStack.axis == .horizontal{VistaStack.axis = .vertical}
          else {VistaStack.axis = .horizontal}*/
     }
     
