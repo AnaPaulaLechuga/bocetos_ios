@@ -332,14 +332,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdG-Hb-Rx2">
-                                <rect key="frame" x="49" y="607" width="294" height="176"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Y si te quedas atrapado aquí en este lugar, lo siento mucho pero has perdido, así que tendrás que repetir el proceso nuevamente desde el inicio. Te daré una pista, hay un botón casi invisible en algun lado de esta pantalla...</string>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Sd-Iu-upq">
                                 <rect key="frame" x="132" y="576" width="129" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -351,6 +343,14 @@
                                     <segue destination="jxv-tD-jj9" kind="unwind" unwindAction="volver_a_pantalla_inicioWithSegue:" id="xu7-uq-IBg"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdG-Hb-Rx2">
+                                <rect key="frame" x="42" y="594" width="309" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Y si te quedas atrapado aquí en este lugar, lo siento mucho pero has perdido, así que tendrás que repetir el proceso nuevamente desde el inicio. Te daré una pista, hay un botón casi invisible en algún lado de esta pantalla...</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5lz-Ff-Z3s"/>
                         <color key="backgroundColor" red="0.29202239046391754" green="0.0" blue="0.057132093740299553" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -359,7 +359,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lAs-5O-eSy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="jxv-tD-jj9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-511" y="718"/>
+            <point key="canvasLocation" x="-512.2137404580152" y="716.90140845070425"/>
         </scene>
         <!--Controlador Pantalla Agregar Cita-->
         <scene sceneID="2Cy-y0-eBH">
