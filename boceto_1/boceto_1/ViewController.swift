@@ -61,4 +61,13 @@ class ViewController: UIViewController {
         actualizar_cantidad()
         
     }
+    
+    override func viewDidLayoutSubviews() {
+        /*self.ori
+         if VistaStack-axis == .horizontal{VistaStack.axis = .vertical}*/
+    }
+    
+    override func viewWillLayoutSubviews() {
+        print ("Empezamos la rotación de la pantalla...")
+    }
 }
