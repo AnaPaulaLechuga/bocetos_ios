@@ -40,16 +40,33 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="celda_pantalla_principal" id="w8C-NW-d4E">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="celda_pantalla_principal" id="w8C-NW-d4E" customClass="VistaDeZelda" customModule="boceto_2_CellView" customModuleProvider="target">
                                 <rect key="frame" x="73" y="0.0" width="247" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bUX-6u-20e">
                                     <rect key="frame" x="0.0" y="0.0" width="247" height="250"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YT0-ft-HAq">
+                                            <rect key="frame" x="0.0" y="0.0" width="247" height="250"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="YT0-ft-HAq" secondAttribute="trailing" id="GcX-RO-Uv1"/>
+                                        <constraint firstItem="YT0-ft-HAq" firstAttribute="leading" secondItem="bUX-6u-20e" secondAttribute="leading" id="hYS-bM-OCH"/>
+                                        <constraint firstItem="YT0-ft-HAq" firstAttribute="top" secondItem="bUX-6u-20e" secondAttribute="top" id="oR3-fW-v50"/>
+                                        <constraint firstAttribute="bottom" secondItem="YT0-ft-HAq" secondAttribute="bottom" id="vVd-IH-7Av"/>
+                                    </constraints>
                                 </collectionViewCellContentView>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <color key="tintColor" systemColor="linkColor"/>
                                 <size key="customSize" width="247" height="250"/>
+                                <connections>
+                                    <outlet property="etiqueta" destination="YT0-ft-HAq" id="c8h-8V-VNi"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>

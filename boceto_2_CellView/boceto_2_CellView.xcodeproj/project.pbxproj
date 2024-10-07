@@ -16,6 +16,7 @@
 		FB2592E72CB433BC00CCBB08 /* boceto_2_CellViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2592E62CB433BC00CCBB08 /* boceto_2_CellViewUITests.swift */; };
 		FB2592E92CB433BC00CCBB08 /* boceto_2_CellViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2592E82CB433BC00CCBB08 /* boceto_2_CellViewUITestsLaunchTests.swift */; };
 		FB2592F82CB4376500CCBB08 /* ControladorPantallaPrincipalDeColeccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2592F72CB4376500CCBB08 /* ControladorPantallaPrincipalDeColeccion.swift */; };
+		FB2592FA2CB43D2F00CCBB08 /* VistaDeZelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2592F92CB43D2F00CCBB08 /* VistaDeZelda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FB2592E62CB433BC00CCBB08 /* boceto_2_CellViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boceto_2_CellViewUITests.swift; sourceTree = "<group>"; };
 		FB2592E82CB433BC00CCBB08 /* boceto_2_CellViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boceto_2_CellViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FB2592F72CB4376500CCBB08 /* ControladorPantallaPrincipalDeColeccion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladorPantallaPrincipalDeColeccion.swift; sourceTree = "<group>"; };
+		FB2592F92CB43D2F00CCBB08 /* VistaDeZelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaDeZelda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				FB2592F72CB4376500CCBB08 /* ControladorPantallaPrincipalDeColeccion.swift */,
+				FB2592F92CB43D2F00CCBB08 /* VistaDeZelda.swift */,
 			);
 			path = vista_de_celdas;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				FB2592C62CB433BB00CCBB08 /* AppDelegate.swift in Sources */,
 				FB2592C82CB433BB00CCBB08 /* SceneDelegate.swift in Sources */,
+				FB2592FA2CB43D2F00CCBB08 /* VistaDeZelda.swift in Sources */,
 				FB2592F82CB4376500CCBB08 /* ControladorPantallaPrincipalDeColeccion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
