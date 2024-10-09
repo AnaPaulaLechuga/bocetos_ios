@@ -10,15 +10,30 @@ import UIKit
 
 class ControladorPantallaPrincipalDeColeccion: UICollectionViewController {
     
+    private var lista_de_publicaciones: [Publicacion] = []
+    private let url_de_publicaciones = "https://jsonplaceholder.typicode.com/posts"
+    
     private let identificador_de_celda = "celda_pantalla_principal"
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-        // Do any additional setup after loading the view.
+        
+        let ubicacion = URL(string: url_de_publicaciones)!
+        URLSession.shared.dataTask(with: ubicacion) {(datos, respuesta, error)
+            in do {
+                if let publicaciones_recibidas = datos{
+                    let prueba_de_interpretacion_de_datos = try JSONDecoder().decode([Publicacion].self, from: publicaciones_recibidas)
+                    self.lista_de_publicaciones = prueba_de_interpretacion_de_datos
+                }
+                else {
+                    print(respuesta)
+                }
+            }
+            catch {
+                print("Error")
+            }
+        } .resume()
+        
+     print(lista_de_publicaciones)
     }
 
     /*
@@ -35,13 +50,13 @@ class ControladorPantallaPrincipalDeColeccion: UICollectionViewController {
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 6
+        return 2
     }
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 20
+        return 5+5
     }
 
     //Función para identificar y crear cada una de las celdas creadas en el Controller
