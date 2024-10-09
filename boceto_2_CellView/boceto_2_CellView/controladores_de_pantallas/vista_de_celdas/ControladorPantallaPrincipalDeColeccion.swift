@@ -19,24 +19,27 @@ class ControladorPantallaPrincipalDeColeccion: UICollectionViewController {
         /*
          let ubicacion = URL(string: url_de_publicaciones)!
          URLSession.shared.dataTask(with: ubicacion) {(datos, respuesta, error)
-             in do {
-                 if let publicaciones_recibidas = datos{
-                     let prueba_de_interpretacion_de_datos = try JSONDecoder().decode([Publicacion].self, from: publicaciones_recibidas){
-                         
-                     }
-                 }
-                 else {
-                     print(respuesta)
-                 }
-             }
-             catch {
-                 print("Error")
-             }
+         in do {
+         if let publicaciones_recibidas = datos{
+         let prueba_de_interpretacion_de_datos = try JSONDecoder().decode([Publicacion].self, from: publicaciones_recibidas){
+         
+         }
+         }
+         else {
+         print(respuesta)
+         }
+         }
+         catch {
+         print("Error")
+         }
          } .resume()
          
-      print(lista_de_publicaciones)
+         print(lista_de_publicaciones)
          */
+        ProveedorDePublicaciones().obtener_publicaciones(que_hacer_al_recibir: { (lista_de_publicaciones) in self.lista_de_publicaciones = lista_de_publicaciones}
+                                                         
     }
+
 
     /*
     // MARK: - Navigation
