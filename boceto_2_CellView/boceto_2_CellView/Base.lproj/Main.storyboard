@@ -47,15 +47,27 @@
                                     <rect key="frame" x="0.0" y="0.0" width="247" height="250"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YT0-ft-HAq">
-                                            <rect key="frame" x="0.0" y="0.0" width="247" height="250"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YT0-ft-HAq">
+                                            <rect key="frame" x="0.0" y="-91" width="247" height="250"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3c-Kq-Bop" userLabel="Cuerpo">
+                                            <rect key="frame" x="0.0" y="204" width="144" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="S3c-Kq-Bop" secondAttribute="trailing" id="DY6-Fs-FVZ"/>
                                         <constraint firstAttribute="trailing" secondItem="YT0-ft-HAq" secondAttribute="trailing" id="GcX-RO-Uv1"/>
+                                        <constraint firstItem="S3c-Kq-Bop" firstAttribute="top" secondItem="YT0-ft-HAq" secondAttribute="bottom" id="Hja-EA-WY5"/>
+                                        <constraint firstItem="S3c-Kq-Bop" firstAttribute="top" secondItem="YT0-ft-HAq" secondAttribute="bottom" constant="45" id="Lgx-0k-UXj"/>
+                                        <constraint firstAttribute="trailing" secondItem="S3c-Kq-Bop" secondAttribute="trailing" constant="103" id="RLQ-6P-OCU"/>
+                                        <constraint firstAttribute="bottom" secondItem="S3c-Kq-Bop" secondAttribute="bottom" constant="25" id="Zam-Ey-zrU"/>
+                                        <constraint firstItem="S3c-Kq-Bop" firstAttribute="leading" secondItem="bUX-6u-20e" secondAttribute="leading" id="ar8-av-FFi"/>
                                         <constraint firstItem="YT0-ft-HAq" firstAttribute="leading" secondItem="bUX-6u-20e" secondAttribute="leading" id="hYS-bM-OCH"/>
                                         <constraint firstItem="YT0-ft-HAq" firstAttribute="top" secondItem="bUX-6u-20e" secondAttribute="top" id="oR3-fW-v50"/>
                                         <constraint firstAttribute="bottom" secondItem="YT0-ft-HAq" secondAttribute="bottom" id="vVd-IH-7Av"/>
@@ -65,7 +77,8 @@
                                 <color key="tintColor" systemColor="linkColor"/>
                                 <size key="customSize" width="247" height="250"/>
                                 <connections>
-                                    <outlet property="etiqueta" destination="YT0-ft-HAq" id="c8h-8V-VNi"/>
+                                    <outlet property="cuerpo" destination="S3c-Kq-Bop" id="ttQ-Hi-Aft"/>
+                                    <outlet property="etiqueta" destination="YT0-ft-HAq" id="qRW-wI-7yJ"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>

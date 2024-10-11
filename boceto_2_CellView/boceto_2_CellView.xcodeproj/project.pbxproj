@@ -19,6 +19,9 @@
 		FB2592FA2CB43D2F00CCBB08 /* VistaDeZelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2592F92CB43D2F00CCBB08 /* VistaDeZelda.swift */; };
 		FB5ADD0D2CB6D77900078CE0 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5ADD0C2CB6D77900078CE0 /* Posts.swift */; };
 		FB5ADD102CB6E73300078CE0 /* provedor_publicaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5ADD0F2CB6E73300078CE0 /* provedor_publicaciones.swift */; };
+		FBD8F7062CB97B4C00B18ABF /* ControladorPantalladelPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD8F7052CB97B4C00B18ABF /* ControladorPantalladelPost.swift */; };
+		FBD8F7092CB984E100B18ABF /* mod_navegador_principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD8F7082CB984E100B18ABF /* mod_navegador_principal.swift */; };
+		FBD8F70B2CB9850600B18ABF /* EstiloCellViewControllerCelular.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD8F70A2CB9850600B18ABF /* EstiloCellViewControllerCelular.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		FB2592F92CB43D2F00CCBB08 /* VistaDeZelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaDeZelda.swift; sourceTree = "<group>"; };
 		FB5ADD0C2CB6D77900078CE0 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		FB5ADD0F2CB6E73300078CE0 /* provedor_publicaciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = provedor_publicaciones.swift; sourceTree = "<group>"; };
+		FBD8F7052CB97B4C00B18ABF /* ControladorPantalladelPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladorPantalladelPost.swift; sourceTree = "<group>"; };
+		FBD8F7082CB984E100B18ABF /* mod_navegador_principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mod_navegador_principal.swift; sourceTree = "<group>"; };
+		FBD8F70A2CB9850600B18ABF /* EstiloCellViewControllerCelular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstiloCellViewControllerCelular.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +144,9 @@
 		FB2592F52CB4368400CCBB08 /* controladores_de_pantallas */ = {
 			isa = PBXGroup;
 			children = (
+				FBD8F7072CB984BA00B18ABF /* estilos */,
 				FB2592F62CB436A300CCBB08 /* vista_de_celdas */,
+				FBD8F7052CB97B4C00B18ABF /* ControladorPantalladelPost.swift */,
 			);
 			path = controladores_de_pantallas;
 			sourceTree = "<group>";
@@ -166,6 +174,15 @@
 				FB5ADD0F2CB6E73300078CE0 /* provedor_publicaciones.swift */,
 			);
 			path = proveedor;
+			sourceTree = "<group>";
+		};
+		FBD8F7072CB984BA00B18ABF /* estilos */ = {
+			isa = PBXGroup;
+			children = (
+				FBD8F7082CB984E100B18ABF /* mod_navegador_principal.swift */,
+				FBD8F70A2CB9850600B18ABF /* EstiloCellViewControllerCelular.swift */,
+			);
+			path = estilos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,10 +318,13 @@
 			files = (
 				FB2592C62CB433BB00CCBB08 /* AppDelegate.swift in Sources */,
 				FB2592C82CB433BB00CCBB08 /* SceneDelegate.swift in Sources */,
+				FBD8F7062CB97B4C00B18ABF /* ControladorPantalladelPost.swift in Sources */,
 				FB5ADD102CB6E73300078CE0 /* provedor_publicaciones.swift in Sources */,
 				FB5ADD0D2CB6D77900078CE0 /* Posts.swift in Sources */,
+				FBD8F70B2CB9850600B18ABF /* EstiloCellViewControllerCelular.swift in Sources */,
 				FB2592FA2CB43D2F00CCBB08 /* VistaDeZelda.swift in Sources */,
 				FB2592F82CB4376500CCBB08 /* ControladorPantallaPrincipalDeColeccion.swift in Sources */,
+				FBD8F7092CB984E100B18ABF /* mod_navegador_principal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
