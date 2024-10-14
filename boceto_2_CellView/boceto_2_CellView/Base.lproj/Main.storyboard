@@ -58,7 +58,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3c-Kq-Bop" userLabel="Cuerpo">
-                                            <rect key="frame" x="0.0" y="73" width="247" height="169"/>
+                                            <rect key="frame" x="0.0" y="73" width="247" height="104"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="247" id="cn2-yz-oVB"/>
                                                 <constraint firstAttribute="height" constant="169" id="ygt-7A-ubG"/>
@@ -71,9 +71,11 @@
                                     <constraints>
                                         <constraint firstItem="YT0-ft-HAq" firstAttribute="centerX" secondItem="bUX-6u-20e" secondAttribute="centerX" id="CSf-00-YW4"/>
                                         <constraint firstItem="YT0-ft-HAq" firstAttribute="leading" secondItem="bUX-6u-20e" secondAttribute="leading" id="Cjk-TV-mRo"/>
+                                        <constraint firstAttribute="bottom" secondItem="S3c-Kq-Bop" secondAttribute="bottom" constant="73" id="JFr-yM-G7Y"/>
                                         <constraint firstItem="YT0-ft-HAq" firstAttribute="top" secondItem="bUX-6u-20e" secondAttribute="top" id="JSV-Cu-av6"/>
                                         <constraint firstItem="S3c-Kq-Bop" firstAttribute="firstBaseline" secondItem="YT0-ft-HAq" secondAttribute="baseline" constant="20.333333333333332" symbolType="layoutAnchor" id="L1Q-5G-rL2"/>
                                         <constraint firstItem="S3c-Kq-Bop" firstAttribute="centerX" secondItem="bUX-6u-20e" secondAttribute="centerX" id="nLS-jr-bw1"/>
+                                        <constraint firstItem="S3c-Kq-Bop" firstAttribute="centerY" secondItem="bUX-6u-20e" secondAttribute="centerY" id="u2C-qk-Zyn"/>
                                     </constraints>
                                 </collectionViewCellContentView>
                                 <color key="backgroundColor" name="AccentColor"/>
