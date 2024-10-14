@@ -47,7 +47,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="247" height="192"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YT0-ft-HAq">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YT0-ft-HAq">
                                             <rect key="frame" x="0.0" y="0.0" width="247" height="73"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="73" id="JIJ-OR-KGh"/>
@@ -72,7 +72,6 @@
                                         <constraint firstItem="YT0-ft-HAq" firstAttribute="centerX" secondItem="bUX-6u-20e" secondAttribute="centerX" id="CSf-00-YW4"/>
                                         <constraint firstItem="YT0-ft-HAq" firstAttribute="leading" secondItem="bUX-6u-20e" secondAttribute="leading" id="Cjk-TV-mRo"/>
                                         <constraint firstItem="S3c-Kq-Bop" firstAttribute="top" secondItem="bUX-6u-20e" secondAttribute="top" constant="73" id="Dl0-wY-fdS"/>
-                                        <constraint firstItem="YT0-ft-HAq" firstAttribute="top" secondItem="bUX-6u-20e" secondAttribute="top" id="JSV-Cu-av6"/>
                                         <constraint firstItem="S3c-Kq-Bop" firstAttribute="centerX" secondItem="bUX-6u-20e" secondAttribute="centerX" id="nLS-jr-bw1"/>
                                         <constraint firstItem="S3c-Kq-Bop" firstAttribute="centerY" secondItem="bUX-6u-20e" secondAttribute="centerY" id="u2C-qk-Zyn"/>
                                     </constraints>
