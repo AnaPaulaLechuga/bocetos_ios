@@ -47,30 +47,33 @@
                                     <rect key="frame" x="0.0" y="0.0" width="247" height="250"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YT0-ft-HAq">
-                                            <rect key="frame" x="0.0" y="-62" width="247" height="250"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YT0-ft-HAq">
+                                            <rect key="frame" x="0.0" y="0.0" width="247" height="73"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="73" id="JIJ-OR-KGh"/>
+                                                <constraint firstAttribute="width" constant="247" id="eG2-er-ic9"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3c-Kq-Bop" userLabel="Cuerpo">
-                                            <rect key="frame" x="0.0" y="53" width="247" height="250"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3c-Kq-Bop" userLabel="Cuerpo">
+                                            <rect key="frame" x="0.0" y="73" width="247" height="169"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="247" id="cn2-yz-oVB"/>
+                                                <constraint firstAttribute="height" constant="169" id="ygt-7A-ubG"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="S3c-Kq-Bop" secondAttribute="trailing" id="DY6-Fs-FVZ"/>
-                                        <constraint firstAttribute="trailing" secondItem="YT0-ft-HAq" secondAttribute="trailing" id="GcX-RO-Uv1"/>
-                                        <constraint firstItem="S3c-Kq-Bop" firstAttribute="top" secondItem="YT0-ft-HAq" secondAttribute="bottom" id="Hja-EA-WY5"/>
-                                        <constraint firstItem="S3c-Kq-Bop" firstAttribute="top" secondItem="YT0-ft-HAq" secondAttribute="bottom" constant="45" id="Lgx-0k-UXj"/>
-                                        <constraint firstAttribute="trailing" secondItem="S3c-Kq-Bop" secondAttribute="trailing" constant="103" id="RLQ-6P-OCU"/>
-                                        <constraint firstAttribute="bottom" secondItem="S3c-Kq-Bop" secondAttribute="bottom" constant="25" id="Zam-Ey-zrU"/>
-                                        <constraint firstItem="S3c-Kq-Bop" firstAttribute="leading" secondItem="bUX-6u-20e" secondAttribute="leading" id="ar8-av-FFi"/>
-                                        <constraint firstItem="YT0-ft-HAq" firstAttribute="leading" secondItem="bUX-6u-20e" secondAttribute="leading" id="hYS-bM-OCH"/>
-                                        <constraint firstItem="YT0-ft-HAq" firstAttribute="top" secondItem="bUX-6u-20e" secondAttribute="top" id="oR3-fW-v50"/>
-                                        <constraint firstAttribute="bottom" secondItem="YT0-ft-HAq" secondAttribute="bottom" id="vVd-IH-7Av"/>
+                                        <constraint firstItem="YT0-ft-HAq" firstAttribute="centerX" secondItem="bUX-6u-20e" secondAttribute="centerX" id="CSf-00-YW4"/>
+                                        <constraint firstItem="YT0-ft-HAq" firstAttribute="leading" secondItem="bUX-6u-20e" secondAttribute="leading" id="Cjk-TV-mRo"/>
+                                        <constraint firstItem="YT0-ft-HAq" firstAttribute="top" secondItem="bUX-6u-20e" secondAttribute="top" id="JSV-Cu-av6"/>
+                                        <constraint firstItem="S3c-Kq-Bop" firstAttribute="firstBaseline" secondItem="YT0-ft-HAq" secondAttribute="baseline" constant="20.333333333333332" symbolType="layoutAnchor" id="L1Q-5G-rL2"/>
+                                        <constraint firstItem="S3c-Kq-Bop" firstAttribute="centerX" secondItem="bUX-6u-20e" secondAttribute="centerX" id="nLS-jr-bw1"/>
                                     </constraints>
                                 </collectionViewCellContentView>
                                 <color key="backgroundColor" name="AccentColor"/>
