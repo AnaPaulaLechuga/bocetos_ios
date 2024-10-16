@@ -1,0 +1,12 @@
+#usda 1.0
+
+def "Sun" (
+    active = true
+    prepend references = @Sun.usdz@
+)
+{
+    float3 xformOp:scale = (50, 50, 50)
+    float3 xformOp:translate = (-0.24195153, 24.714598, 0.36461195)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+}
+
