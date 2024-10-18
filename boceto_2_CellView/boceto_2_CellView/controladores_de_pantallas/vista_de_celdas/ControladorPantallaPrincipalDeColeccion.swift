@@ -92,11 +92,16 @@ class ControladorPantallaPrincipalDeColeccion: UICollectionViewController {
         print("Se seleccionó la celda \(indexPath)")
         
         let pantalla_de_publicacion = storyboard?.instantiateViewController(withIdentifier: "PantallaPublicacion") as! ControladorPantallaDelPost
-                
+        
+        //pantalla_de_publicacion.id_publicacion = indexPath.item
+        pantalla_de_publicacion.id_publicacion = self.lista_de_publicaciones[indexPath.item].id
+        
+        //self.navigationController?.pushViewController(pantalla_de_publicacion, animated: true)
         self.navigationController?.pushViewController(pantalla_de_publicacion, animated: true)
                 
         //print(self.navigationController)
     }
+    
 
     // MARK: UICollectionViewDelegate
 
@@ -140,32 +145,11 @@ class ControladorPantallaPrincipalDeColeccion: UICollectionViewController {
          }
 
          // Funcion para identificar y crear cada una de las celdas creadas en el Controller
-         override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-             let celda: VistaDeZelda = collectionView.dequeueReusableCell(withReuseIdentifier: identificador_de_celda, for: indexPath) as! VistaDeZelda
          
-             // Configure the cell
-             //celda.tintColor = UIColor.green
-             
-             celda.etiqueta.text = self.lista_de_publicaciones[indexPath.item].title
-             celda.cuerpo.text = self.lista_de_publicaciones[indexPath.item].body
-
-             // print(self.lista_de_publicaciones)
-             
-             return celda
-         }
          
 
          
-         override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-             print("Se selecciono la celda\(indexPath)")
-             
-             let pantalla_de_publicacion = storyboard?.instantiateViewController(withIdentifier: "PantallaPublicacion") as! ControladorPantallaDelPost
-             
-             self.navigationController?.pushViewController(pantalla_de_publicacion, animated: true)
-             
-             print(self.navigationController)
-
-         }
+         
 
     */
 

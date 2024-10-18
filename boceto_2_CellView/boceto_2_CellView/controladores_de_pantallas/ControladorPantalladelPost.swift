@@ -27,9 +27,17 @@ class ControladorPantallaDelPost: UIViewController {
     }
     
     func realizar_descarga_de_informacion(){
-        
+        proveedor_publicaciones.obtener_publicaciones(id: self.id_publicacion ?? -1, que_hacer_al_recibir: {
+            [weak self] (publicacion) in self?.publicacion = publicacion
+            DispatchQueue.main.async {
+                self?.dibujar_publicacion()
+            }
+        })
     }
     
+    func dibujar_publicacion(){
+        print(publicacion?.body)
+    }
 
     /*
     // MARK: - Navigation
