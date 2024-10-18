@@ -97,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="-228.24427480916029" y="-476.05633802816902"/>
         </scene>
-        <!--View Controller-->
+        <!--Controlador Pantalla Del Publicacion-->
         <scene sceneID="o5U-JM-gDP">
             <objects>
-                <viewController id="nhD-PK-HVy" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PantallaPublicacion" id="nhD-PK-HVy" customClass="ControladorPantallaDelPublicacion" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="isC-UT-5ps">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
