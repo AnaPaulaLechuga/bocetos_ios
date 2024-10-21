@@ -12,10 +12,10 @@ class mod_navegador_principal: UINavigationController {
         // self.navigationBar.isTranslucent = true
         // self.navigationBar.backgroundColor = .black
         //self.hidesBarsOnSwipe = true
-        activar_navigation_bar(actviar: false)
+        activar_navigation_bar(activar: false)
     }
     
-    func activar_navigation_bar(actviar: Bool){
-        self.navigationBar.isHidden = !actviar
+    func activar_navigation_bar(activar: Bool){
+        self.navigationBar.isHidden = !activar
     }
 }

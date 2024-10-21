@@ -19,6 +19,7 @@ class ControladorPantallaDelPost: UIViewController {
     
     private var publicacion: Publicacion?
     private var usuario: Usuario?
+    private var lista_comentarios: [Comentario] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +28,7 @@ class ControladorPantallaDelPost: UIViewController {
         
         
         let controlador_de_navegacion = self.navigationController as? mod_navegador_principal
-        controlador_de_navegacion?.activar_navigation_bar(actviar: true)
+        controlador_de_navegacion?.activar_navigation_bar(activar: true)
         
         realizar_descarga_de_informacion()
     }

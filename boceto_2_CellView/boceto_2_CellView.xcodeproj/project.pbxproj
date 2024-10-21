@@ -18,6 +18,7 @@
 		FB2592F82CB4376500CCBB08 /* ControladorPantallaPrincipalDeColeccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2592F72CB4376500CCBB08 /* ControladorPantallaPrincipalDeColeccion.swift */; };
 		FB2592FA2CB43D2F00CCBB08 /* VistaDeZelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2592F92CB43D2F00CCBB08 /* VistaDeZelda.swift */; };
 		FB468A262CC6B349001DEAAA /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB468A252CC6B349001DEAAA /* Usuario.swift */; };
+		FB468A282CC6B900001DEAAA /* Comentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB468A272CC6B900001DEAAA /* Comentario.swift */; };
 		FB5ADD0D2CB6D77900078CE0 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5ADD0C2CB6D77900078CE0 /* Posts.swift */; };
 		FB5ADD102CB6E73300078CE0 /* provedor_publicaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5ADD0F2CB6E73300078CE0 /* provedor_publicaciones.swift */; };
 		FBD8F7062CB97B4C00B18ABF /* ControladorPantalladelPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD8F7052CB97B4C00B18ABF /* ControladorPantalladelPost.swift */; };
@@ -58,6 +59,7 @@
 		FB2592F72CB4376500CCBB08 /* ControladorPantallaPrincipalDeColeccion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladorPantallaPrincipalDeColeccion.swift; sourceTree = "<group>"; };
 		FB2592F92CB43D2F00CCBB08 /* VistaDeZelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaDeZelda.swift; sourceTree = "<group>"; };
 		FB468A252CC6B349001DEAAA /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		FB468A272CC6B900001DEAAA /* Comentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comentario.swift; sourceTree = "<group>"; };
 		FB5ADD0C2CB6D77900078CE0 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		FB5ADD0F2CB6E73300078CE0 /* provedor_publicaciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = provedor_publicaciones.swift; sourceTree = "<group>"; };
 		FBD8F7052CB97B4C00B18ABF /* ControladorPantalladelPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladorPantalladelPost.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			children = (
 				FB5ADD0C2CB6D77900078CE0 /* Posts.swift */,
 				FB468A252CC6B349001DEAAA /* Usuario.swift */,
+				FB468A272CC6B900001DEAAA /* Comentario.swift */,
 			);
 			path = modelos;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			files = (
 				FB2592C62CB433BB00CCBB08 /* AppDelegate.swift in Sources */,
 				FB2592C82CB433BB00CCBB08 /* SceneDelegate.swift in Sources */,
+				FB468A282CC6B900001DEAAA /* Comentario.swift in Sources */,
 				FBD8F7062CB97B4C00B18ABF /* ControladorPantalladelPost.swift in Sources */,
 				FB5ADD102CB6E73300078CE0 /* provedor_publicaciones.swift in Sources */,
 				FB5ADD0D2CB6D77900078CE0 /* Posts.swift in Sources */,
