@@ -18,6 +18,7 @@ class ControladorPantallaDelPost: UIViewController {
     public var id_publicacion: Int?
     
     private var publicacion: Publicacion?
+    private var usuario: Usuario?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,8 +43,8 @@ class ControladorPantallaDelPost: UIViewController {
         }
         
         else if self.publicacion != nil {
-            proveedor_publicaciones.obtener_publicaciones(id: self.id_publicacion ?? -1, que_hacer_al_recibir: {
-                [weak self] (publicacion) in self?.publicacion = publicacion
+            proveedor_publicaciones.obtener_usuario(id: publicacion!.userId, que_hacer_al_recibir: {
+                [weak self] (usuario) in self?.usuario = usuario
                 DispatchQueue.main.async {
                     self?.dibujar_publicacion()
                 }
