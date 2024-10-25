@@ -7,14 +7,15 @@
 
 import UIKit
 
-class ControladorPantallaDelPost: UIViewController {
+class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource {
+    private let identificador_de_celda = "CeldaComentario"
+    
     let proveedor_publicaciones = ProveedorDePublicaciones.autoreferencia
     
     @IBOutlet weak var titulo_de_publicacion: UILabel!
     @IBOutlet weak var nombre_de_usuario: UILabel!
     @IBOutlet weak var cuerpo_de_publicacion: UILabel!
     @IBOutlet weak var seccion_comentarios: UICollectionView!
-    
     public var id_publicacion: Int?
     
     private var publicacion: Publicacion?
@@ -30,6 +31,8 @@ class ControladorPantallaDelPost: UIViewController {
         let controlador_de_navegacion = self.navigationController as? mod_navegador_principal
         controlador_de_navegacion?.activar_navigation_bar(activar: true)
         
+        seccion_comentarios.dataSource = self
+        
         realizar_descarga_de_informacion()
     }
     
@@ -39,6 +42,7 @@ class ControladorPantallaDelPost: UIViewController {
                 [weak self] (publicacion) in self?.publicacion = publicacion
                 DispatchQueue.main.async {
                     self?.dibujar_publicacion()
+                    self?.realizar_descarga_de_informacion()
                 }
             })
         }
@@ -47,14 +51,20 @@ class ControladorPantallaDelPost: UIViewController {
             proveedor_publicaciones.obtener_usuario(id: publicacion!.userId, que_hacer_al_recibir: {
                 [weak self] (usuario) in self?.usuario = usuario
                 DispatchQueue.main.async {
-                    self?.dibujar_publicacion()
+                    self?.dibujar_usuario()
+                }
+            })
+            proveedor_publicaciones.obtener_publicacion(id: publicacion!.id, que_hacer_al_recibir: {
+                [weak self] (comentarios_descargados) in self?.lista_comentarios = comentarios_descargados
+                DispatchQueue.main.async {
+                    self?.seccion_comentarios.reloadData()
                 }
             })
         }
     }
     
     func dibujar_publicacion(){
-        guard let publicacion_actual = self.publicacion else{
+        guard let usuario_actual = self.usuario else{
             return
         }
         
@@ -63,7 +73,33 @@ class ControladorPantallaDelPost: UIViewController {
         
         //print(publicacion?.body)
     }
-
+    
+    func dibujar_usuario(){
+        guard let publicacion_actual = self.publicacion else{
+            return
+        }
+        
+        nombre_de_usuario
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return lista_comentarios.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        print("Aquí debería hacer algo")
+        let celda: VistaDeZelda = collectionView.dequeueReusableCell(withReuseIdentifier: identificador_de_celda, for: indexPath) as! VistaDeZelda
+    
+        // Configure the cell
+        celda.tintColor = UIColor.blue
+        
+        return celda
+    }
+    
     /*
     // MARK: - Navigation
 

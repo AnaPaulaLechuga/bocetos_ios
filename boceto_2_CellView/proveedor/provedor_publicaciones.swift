@@ -92,7 +92,7 @@ class ProveedorDePublicaciones{
     
     //Algo en corchetes es una clase para hacer un arreglo de un tipo de datos
     
-    func obtener_comentarios_en_publicacion(id: Int, que_hacer_al_recibir: @escaping ([Comentario]) -> Void) {
+    func obtener_publicacion(id: Int, que_hacer_al_recibir: @escaping ([Comentario]) -> Void) {
             let ubicacion = URL(string: "\(url_de_publicaciones)posts/\(id)/coments")!
             URLSession.shared.dataTask(with: ubicacion) {
                     (datos, respuesta, error) in do {

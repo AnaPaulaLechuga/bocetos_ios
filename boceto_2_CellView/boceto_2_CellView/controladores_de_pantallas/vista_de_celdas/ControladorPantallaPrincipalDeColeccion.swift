@@ -11,8 +11,6 @@ import UIKit
 class ControladorPantallaPrincipalDeColeccion: UICollectionViewController {
     
     private var lista_de_publicaciones: [Publicacion] = []
-    let url_de_publicaciones = "https://jsonplaceholder.typicode.com/posts"
-
         
     private let identificador_de_celda = "celda_pantalla_principal"
 
@@ -66,7 +64,7 @@ class ControladorPantallaPrincipalDeColeccion: UICollectionViewController {
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 2
     }
 
 
