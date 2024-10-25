@@ -54,7 +54,7 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource {
                     self?.dibujar_usuario()
                 }
             })
-            proveedor_publicaciones.obtener_publicacion(id: publicacion!.id, que_hacer_al_recibir: {
+            proveedor_publicaciones.obtener_comentarios_en_publicacion(id: publicacion!.id, que_hacer_al_recibir: {
                 [weak self] (comentarios_descargados) in self?.lista_comentarios = comentarios_descargados
                 DispatchQueue.main.async {
                     self?.seccion_comentarios.reloadData()
@@ -64,7 +64,7 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource {
     }
     
     func dibujar_publicacion(){
-        guard let usuario_actual = self.usuario else{
+        guard let publicacion_actual = self.publicacion else{
             return
         }
         
@@ -75,11 +75,11 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource {
     }
     
     func dibujar_usuario(){
-        guard let publicacion_actual = self.publicacion else{
+        guard let usuario_actual = self.usuario else{
             return
         }
         
-        nombre_de_usuario
+        nombre_de_usuario.text = usuario_actual.username
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -87,12 +87,8 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         print("Aquí debería hacer algo")
-        let celda: VistaDeZelda = collectionView.dequeueReusableCell(withReuseIdentifier: identificador_de_celda, for: indexPath) as! VistaDeZelda
+        let celda = collectionView.dequeueReusableCell(withReuseIdentifier: identificador_de_celda, for: indexPath)
     
         // Configure the cell
         celda.tintColor = UIColor.blue
