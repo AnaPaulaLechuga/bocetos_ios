@@ -44,7 +44,7 @@ class ProveedorDePublicaciones{
             }.resume()
         }
     
-    func obtener_publicaciones(id: Int, que_hacer_al_recibir: @escaping (Publicacion) -> Void) {
+    func obtener_publicacion(id: Int, que_hacer_al_recibir: @escaping (Publicacion) -> Void) {
             let ubicacion = URL(string: "\(url_de_publicaciones)posts/\(id)")!
             URLSession.shared.dataTask(with: ubicacion) {
                     (datos, respuesta, error) in do {

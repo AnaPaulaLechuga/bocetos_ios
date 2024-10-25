@@ -38,7 +38,7 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource {
     
     func realizar_descarga_de_informacion(){
         if self.publicacion == nil {
-            proveedor_publicaciones.obtener_publicaciones(id: self.id_publicacion ?? -1, que_hacer_al_recibir: {
+            proveedor_publicaciones.obtener_publicacion(id: self.id_publicacion ?? -1, que_hacer_al_recibir: {
                 [weak self] (publicacion) in self?.publicacion = publicacion
                 DispatchQueue.main.async {
                     self?.dibujar_publicacion()
