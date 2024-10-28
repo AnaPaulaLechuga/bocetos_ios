@@ -91,7 +91,7 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource {
         let celda = collectionView.dequeueReusableCell(withReuseIdentifier: identificador_de_celda, for: indexPath)
     
         // Configure the cell
-        celda.tintColor = UIColor.blue
+        celda.tintColor = UIColor.white
         
         return celda
     }
