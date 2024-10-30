@@ -48,7 +48,7 @@
                         <color key="backgroundColor" red="0.0" green="0.0623659929" blue="0.3058120265" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <tabBarItem key="tabBarItem" badgeValue="99" systemItem="bookmarks" id="DOI-1M-Mze">
-                        <color key="badgeColor" systemColor="tintColor"/>
+                        <color key="badgeColor" red="0.1475555087" green="0.34750629960000001" blue="0.71859858789999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zku-OI-qxE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -60,7 +60,7 @@
             <objects>
                 <navigationController id="FN8-MX-TUm" customClass="mod_navegador_principal" customModule="boceto_2_CellView" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" badgeValue="99+" systemItem="featured" id="aZ0-Kv-1KG">
-                        <color key="badgeColor" systemColor="tintColor"/>
+                        <color key="badgeColor" red="0.14755550867098291" green="0.34750629957905765" blue="0.71859858794645826" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="EEh-fP-XdG">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -232,9 +232,6 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
