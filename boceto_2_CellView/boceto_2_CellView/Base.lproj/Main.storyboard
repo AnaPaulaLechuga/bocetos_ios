@@ -40,15 +40,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Oh, oh, no hay comentarios enivados recientemente, parece que nadie ha tenido la iniciativa de mandarte un mensaje para saber cómo estás, qué tal tu día o alguna otra cosa, qué groseros de su parte...</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NBG-17-za9"/>
-                        <color key="backgroundColor" red="0.23874227140000001" green="0.67277096390000002" blue="0.96611279250000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.0" green="0.0623659929" blue="0.3058120265" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" badgeValue="0" systemItem="recents" id="DOI-1M-Mze">
-                        <color key="badgeColor" red="0.0" green="0.05591655824490252" blue="0.27418718434343436" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <tabBarItem key="tabBarItem" badgeValue="99" systemItem="bookmarks" id="DOI-1M-Mze">
+                        <color key="badgeColor" systemColor="tintColor"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zku-OI-qxE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -60,7 +60,7 @@
             <objects>
                 <navigationController id="FN8-MX-TUm" customClass="mod_navegador_principal" customModule="boceto_2_CellView" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" badgeValue="99+" systemItem="featured" id="aZ0-Kv-1KG">
-                        <color key="badgeColor" red="0.0" green="0.1150699548" blue="0.55585534790000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="badgeColor" systemColor="tintColor"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="EEh-fP-XdG">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -232,6 +232,9 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
