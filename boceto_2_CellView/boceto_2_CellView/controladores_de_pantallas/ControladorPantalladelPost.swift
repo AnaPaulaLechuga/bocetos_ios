@@ -92,6 +92,7 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource {
     
         // Configure the cell
         celda.tintColor = UIColor.white
+        //celda.isHidden = true
         
         return celda
     }
