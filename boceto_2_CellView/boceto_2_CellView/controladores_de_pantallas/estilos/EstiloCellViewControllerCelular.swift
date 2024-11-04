@@ -19,18 +19,18 @@ extension ControladorPantallaPrincipalDeColeccion: UICollectionViewDelegateFlowL
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout:
                         UICollectionViewLayout, insetForSectionAt sction: Int) -> UIEdgeInsets {
-        var margin = CGFloat(25)
+        var margin = CGFloat(30)
         return UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         
-        return 5
+        return 2
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         
-        return 500
+        return 300
     }
             // Method 2
             /*func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
